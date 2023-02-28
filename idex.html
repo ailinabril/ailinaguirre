@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="website icon" type="png" href="cv.v.png">
+</head>
+<body>
+    <form>
+        <script src="java/java.js"></script>
+    </form>
+    <div class="container">
+        <div class="left_Side">
+           <div class="profileText">
+             <div class="imgBx">
+                <img src="img.jpg" alt="Tu imagen" id="imagen-circular">
+            </div>
+        <h2>Ailin Aguirre<br><span>Desarrolladora web</span></h2> 
+        </div>
+
+        <div class="contactInfo">
+            <h3 class="title">Datos de contacto</h3>
+            <ul>
+                <li>
+                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <span class="text">+54 9 3547 678036</span>
+
+                    <button id="abrir-whatsapp" onclick="abrirWhatsApp()">Click</button>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                    <span class="text">ailinaguirreabrril.521@gmail.com</span>
+
+                    <button id="abrir-gmail" onclick="abrirGmail()">Click</button>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></span>
+                    <span class="text">Ailin Aguirre</span>
+
+                    <button onclick="window.location.href='https://www.facebook.com/ailin.aguirre.52/'">Click</button>
+
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                    <span class="text">ailinaguirre2</span>
+
+                    <button onclick="abrirInstagram()">Click</button> 
+
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                    <span class="text">Córdoba, Argentina </span>
+
+                    <button onclick="getLocation()">Click</button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contactInfo education">
+            <h3 class="title">Educacion</h3>
+            <ul>
+                <li>
+                    <h4>Primario completo.</h4>
+                </li>
+                <li>
+                    <h4>Secuandrio completo.</h4>
+                </li>
+                <li>
+                    <h4>Estudiando actualmente en la Facultad de Ciencias Economicas UNC.</h4>
+                </li>
+                <li>
+                    <h4>Desarrollo Front-End.</h4>
+                </li>
+                <li>
+                    <h4>Auxiliar Administrativa contable. (En curso)</h4>
+                </li>
+            </ul>
+        </div>
+        <div class="contactInfo language">
+            <h3 class="title">Idiomas</h3>
+            <ul>
+                <li>
+                    <span class="text">Español</span>
+                    <span class="percent">
+                    <div style="width: 100%;"></div>
+                    </span>
+                </li>
+                <li>
+                    <span class="text">Ingles </span>
+                    <span class="percent">
+                    <div style="width: 45%;"></div>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+        <div class="right_Side">
+            <div class="about">
+                <h2 class="title2">Perfil</h2>
+                  <p>Empleada organizada y con iniciativa, capaz de trabajar bajo presión y administrar el tiempo de forma eficiente.
+                  En busca de utilizar mis habilidades y conocimiento para la posicion de Desarrolladora Web.
+                  <br>No cuento con experiencia en el rubro pero me gustaria adquirirla.</p>
+        </div>
+        <div class="about">
+            <h2 class="title2">Experiencias</h2>
+            <div class="box">
+                <div class="year_company">
+                    <h5>2022 - 2023</h5>
+                    <h5>Cremolatty</h5>
+                </div>
+                <div class="text">
+                    <h4>Atencion al cliente.</h4>
+                    <p>Realzaba distinto tipo de tareas ya que los puestos eran rotativos.
+                        Puesto de cajera, moza, cocinera, heladeria.</p>
+                </div>
+            </div>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2021 - 2022</h5>
+                        <h5>Kiosco Damian</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Atencion al cliente.</h4>
+                        <p>Puesto de cajera, realizaba stock de mercaderia, elavaoración de sandwich de miga, reponer  las cosas faltantes, entre otras.</p>
+                    </div> 
+                </div>
+            </div>
+
+        <div class="about skills">
+            <h2 class="title2">Habilidades</h2>
+            <div class="box">
+                <h4>Html</h4>
+                <div class="percent">
+                  <div style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="box">
+                <h4>CSS</h4>
+                <div class="percent">
+                <div style="width: 89%;"></div>
+                </div>
+            </div>
+            <div class="box">
+                <h4>JavaScript</h4>
+                <div class="percent">
+                <div style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="box">
+                <h4>Manejo de caja</h4>
+                <div class="percent">
+                <div style="width: 78%;"></div>
+                </div>
+            </div>
+            <div class="box">
+                <h4>Manejo de Exel, Word y PowerPoint</h4>
+                <div class="percent">
+                <div style="width: 89%;"></div>
+                </div>
+            </div>
+            <div class="box">
+                <h4>Manejo de PC</h4>
+                <div class="percent">
+                <div style="width: 95%;"></div>
+                </div>
+            </div>
+        </div>
+    <div class="about interest">
+        <h2 class="title2">Intereses</h2>
+            <ul>
+                <li>Poner en practica todos los conocimiento adquirido durante mi formación.</li>
+                <li>Formar parte de un equipo donde me permita adquirir mas conocimiento y crecer tanto economicamente como personalmente.</li>
+            </ul>
+    </div>
+        </div>
+    </div>
+</body>
+</html>
