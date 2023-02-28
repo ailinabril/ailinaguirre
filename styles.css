@@ -77,7 +77,7 @@ body {
 .contactInfo {
     padding-top: 40px;
 }
-/**Cambia el color de los titulos datos de contacto y eduacion.**/
+
 .title {
     color: #03a9f4;
     text-transform: uppercase;
@@ -94,28 +94,28 @@ body {
     margin: 10px 0;
     cursor: pointer;
 }
-/** Cambia de color a los iconos **/
+
 .contactInfo ul li .icon {
     display: inline-block;
     width: 30px;
     font-size: 18 px;
     color: #03a9f4;
 }
-/** Cambia de color los datos de contacto y su fuente**/
+
 .contactInfo ul li span {
     color: #fff;
     font-weight: 300;
 }
-/** Modifica el margen de la info de educacion**/
+
 .contactInfo.education li {
 margin-bottom: 15px;
 }
-/** Cambia de color las letras de la info de educacion y modifica la fuente de las letras**/
+
 .contactInfo.education h4 {
     color: #fff;
     font-weight: 300;
 }
-/**Le pone las lineas de aprendizaje en los idiomas**/
+
 .contactInfo.language .percent {
     position: relative;
     width: 100%;
